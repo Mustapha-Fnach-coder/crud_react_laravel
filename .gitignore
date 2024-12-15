@@ -1,0 +1,30 @@
+# Ignorer les répertoires des dépendances de React et Laravel
+/frontend/node_modules
+/backend/vendor
+
+# Ignorer les fichiers de configuration d'IDE
+/.idea
+/.vscode
+
+# Ignorer les fichiers de configuration locaux (variables d'environnement, clés API, etc.)
+/backend/.env
+
+# Ignorer les fichiers générés par Laravel
+/backend/storage/*
+/backend/public/storage
+
+# Ignorer les fichiers de logs de Laravel
+/backend/storage/logs/*
+
+# Ignorer les fichiers de compilation de React
+/frontend/build
+
+# Ignorer les fichiers temporaires créés par les systèmes d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de test de Laravel (si vous avez des tests unitaires)
+.backend/tests/*
+
+# Ignorer les caches Composer (Laravel)
+.backend/composer.lock
